@@ -23,7 +23,8 @@ When you run the app for the first time:
 1. **Click the menu bar icon** - A popover window will appear
 2. **View memory usage** - See all running apps with their memory consumption
 3. **Click "Refresh"** - Update the memory data anytime
-4. **Color indicators**:
+4. **Click "Quit"** - Close the app completely
+5. **Color indicators**:
    - Blue: Low memory usage (<5%)
    - Orange: Medium memory usage (5-10%)
    - Red: High memory usage (>10%)
@@ -51,6 +52,33 @@ When you run the app for the first time:
 - App Sandbox is disabled (required for reading other processes' memory)
 - Only user-visible applications are shown (no system daemons)
 - Memory data is sorted by usage (highest first)
+
+## Quick Update Script
+
+If you already have the app installed and want to quickly rebuild and update it:
+
+```bash
+./update.sh
+```
+
+This script will:
+- Quit the running app (if it's running)
+- Clean and rebuild the app
+- Remove the old version from Applications
+- Install the new version
+- Optionally launch the updated app
+
+Alternatively, you can use the standard build script:
+
+```bash
+./build.sh
+```
+
+Then manually copy to Applications:
+
+```bash
+cp -R build/Build/Products/Release/MacMemoryApp.app /Applications/
+```
 
 ## Customization Ideas
 

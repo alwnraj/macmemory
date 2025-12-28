@@ -16,14 +16,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA0013 /* MacMemoryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacMemoryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0002 /* MacMemoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacMemoryApp.swift; sourceTree = "<group>"; };
 		AA0004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA0006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AA0014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA0008 /* AppMemoryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMemoryInfo.swift; sourceTree = "<group>"; };
 		AA0010 /* MemoryMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryMonitor.swift; sourceTree = "<group>"; };
 		AA0012 /* AppRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRowView.swift; sourceTree = "<group>"; };
+		AA0013 /* MacMemoryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacMemoryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA0015 /* MacMemoryApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacMemoryApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,14 +46,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		AA0019 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AA0013 /* MacMemoryApp.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		AA0018 /* MacMemoryApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +59,14 @@
 				AA0015 /* MacMemoryApp.entitlements */,
 			);
 			path = MacMemoryApp;
+			sourceTree = "<group>";
+		};
+		AA0019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0013 /* MacMemoryApp.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		AA0020 /* Models */ = {
@@ -297,6 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MacMemoryApp/MacMemoryApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -305,6 +306,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = MacMemoryApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,6 +327,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MacMemoryApp/MacMemoryApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -333,6 +336,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = MacMemoryApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -350,15 +354,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA0028 /* Build configuration list for PBXProject "MacMemoryApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA0029 /* Debug */,
-				AA0030 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		AA0024 /* Build configuration list for PBXNativeTarget "MacMemoryApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -368,8 +363,16 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		AA0028 /* Build configuration list for PBXProject "MacMemoryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0029 /* Debug */,
+				AA0030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 	};
 	rootObject = AA0027 /* Project object */;
 }
-

@@ -72,8 +72,23 @@ struct ContentView: View {
             
             Divider()
             
-            // Footer with refresh button
-            HStack {
+            // Footer with refresh and quit buttons
+            HStack(spacing: 12) {
+                Button(action: {
+                    NSApplication.shared.terminate(nil)
+                }) {
+                    HStack(spacing: 6) {
+                        Image(systemName: "xmark.circle.fill")
+                            .font(.system(size: 11))
+                        Text("Quit")
+                            .font(.system(size: 12, weight: .medium))
+                    }
+                    .padding(.horizontal, 12)
+                    .padding(.vertical, 6)
+                }
+                .buttonStyle(.bordered)
+                .tint(.red)
+                
                 Spacer()
                 
                 Button(action: {
@@ -96,9 +111,8 @@ struct ContentView: View {
                 }
                 .buttonStyle(.borderedProminent)
                 .disabled(memoryMonitor.isLoading)
-                
-                Spacer()
             }
+            .padding(.horizontal, 12)
             .padding(.vertical, 10)
         }
         .frame(width: 350)
