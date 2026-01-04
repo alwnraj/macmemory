@@ -1,0 +1,12 @@
+{
+  "/Users/AlwinRajkumar/Desktop/resume/macmemory/MacMemoryApp/ContentView.swift" : {
+    "abi-baseline-json" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp.abi.json",
+    "const-values" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp-primary.swiftconstvalues",
+    "dependencies" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp-primary.d",
+    "diagnostics" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp-primary.dia",
+    "objc-header" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp-Swift.h",
+    "swiftdoc" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp.swiftdoc",
+    "swiftmodule" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp.swiftmodule",
+    "swiftsourceinfo" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp.swiftsourceinfo"
+  }
+}

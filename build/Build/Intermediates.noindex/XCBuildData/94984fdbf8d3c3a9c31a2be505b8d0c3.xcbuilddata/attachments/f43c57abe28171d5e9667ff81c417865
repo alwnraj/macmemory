@@ -1,0 +1,41 @@
+{
+  "" : {
+    "const-values" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp-primary.swiftconstvalues",
+    "dependencies" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp-primary.d",
+    "diagnostics" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp-primary.dia",
+    "emit-module-dependencies" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp-primary-emit-module.dia",
+    "pch" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp-primary.swiftdeps"
+  },
+  "/Users/AlwinRajkumar/Desktop/resume/macmemory/MacMemoryApp/ContentView.swift" : {
+    "index-unit-output-path" : "/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/AlwinRajkumar/Desktop/resume/macmemory/MacMemoryApp/MacMemoryApp.swift" : {
+    "index-unit-output-path" : "/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp.o",
+    "llvm-bc" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp.bc",
+    "object" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MacMemoryApp.o"
+  },
+  "/Users/AlwinRajkumar/Desktop/resume/macmemory/MacMemoryApp/Models/AppMemoryInfo.swift" : {
+    "index-unit-output-path" : "/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/AppMemoryInfo.o",
+    "llvm-bc" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/AppMemoryInfo.bc",
+    "object" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/AppMemoryInfo.o"
+  },
+  "/Users/AlwinRajkumar/Desktop/resume/macmemory/MacMemoryApp/Services/MemoryMonitor.swift" : {
+    "index-unit-output-path" : "/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MemoryMonitor.o",
+    "llvm-bc" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MemoryMonitor.bc",
+    "object" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/MemoryMonitor.o"
+  },
+  "/Users/AlwinRajkumar/Desktop/resume/macmemory/MacMemoryApp/Views/AppRowView.swift" : {
+    "index-unit-output-path" : "/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/AppRowView.o",
+    "llvm-bc" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/AppRowView.bc",
+    "object" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/AppRowView.o"
+  },
+  "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/AlwinRajkumar/Desktop/resume/macmemory/build/Build/Intermediates.noindex/MacMemoryApp.build/Release/MacMemoryApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

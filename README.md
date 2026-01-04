@@ -3,8 +3,7 @@
 A tiny, native macOS menu bar app that shows memory usage for user apps. Fast, power‑efficient, and built with SwiftUI.
 
 
-![MacMemory UI Screenshot](Screenshot%202026-01-04%20at%202.27.25%20AM.png)
-
+![MacMemory UI Screenshot](screenshot.png)
 
 ## Why use it?
 - Instant view of which apps use the most RAM
