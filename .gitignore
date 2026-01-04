@@ -10,7 +10,6 @@ xcuserdata/
 *.xccheckout
 
 ## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
-build/
 DerivedData/
 *.moved-aside
 *.pbxuser
@@ -97,10 +96,3 @@ build/
 *.app
 *.zip
 *.dmg
-
-DEPLOYMENT.md
-GETTING_STARTED.md
-INSTALL.md
-GITHUB_SETUP.md
-ARCHITECTURE.md
-IMPLEMENTATION_SUMMARY.md
