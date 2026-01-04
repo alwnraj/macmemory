@@ -44,9 +44,26 @@ How to use
 - See apps and their memory usage
 - Tap Refresh to update immediately
 
-Distribution notes
-- Create a release by zipping the built `.app` and uploading it to GitHub Releases
-- For public distribution, sign and notarize the app with an Apple Developer account (Gatekeeper will otherwise require manual Open)
+Creating a release
+
+**Easy way:**
+```bash
+./build.sh          # Builds app and creates MacMemoryApp.zip automatically
+./distribute.sh     # Creates versioned ZIP (MacMemoryApp-v1.0.zip) for releases
+```
+
+The ZIP files are created in `build/Build/Products/Release/`:
+- `MacMemoryApp.zip` - Created automatically by `build.sh`
+- `MacMemoryApp-v*.zip` - Versioned ZIP created by `distribute.sh`
+
+**Upload to GitHub Releases:**
+```bash
+gh release create v1.0 build/Build/Products/Release/MacMemoryApp-v1.0.zip --title "v1.0"
+```
+
+Or manually upload at: https://github.com/alwnraj/macmemory/releases/new
+
+**Note:** For public distribution, sign and notarize the app with an Apple Developer account (Gatekeeper will otherwise require manual Open)
 
 Technical highlights
 - Uses MenuBarExtra, NSWorkspace and libproc (`proc_pid_rusage`)

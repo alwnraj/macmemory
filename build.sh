@@ -29,15 +29,30 @@ if [ $? -eq 0 ]; then
     echo ""
     echo "✅ Build successful!"
     echo ""
+    
+    APP_PATH="build/Build/Products/Release/MacMemoryApp.app"
+    ZIP_PATH="build/Build/Products/Release/MacMemoryApp.zip"
+    
+    # Automatically create ZIP file
+    echo "📦 Creating ZIP archive..."
+    BUILD_DIR="$(pwd)"
+    cd build/Build/Products/Release
+    zip -rq MacMemoryApp.zip MacMemoryApp.app
+    cd "$BUILD_DIR"
+    
+    echo "✅ ZIP created!"
+    echo ""
     echo "📱 App location:"
-    echo "   $(pwd)/build/Build/Products/Release/MacMemoryApp.app"
+    echo "   $(pwd)/$APP_PATH"
+    echo ""
+    echo "📦 ZIP location:"
+    echo "   $(pwd)/$ZIP_PATH"
     echo ""
     echo "💡 To install:"
-    echo "   cp -R build/Build/Products/Release/MacMemoryApp.app /Applications/"
+    echo "   cp -R $APP_PATH /Applications/"
     echo ""
-    echo "💡 To create a ZIP for distribution:"
-    echo "   cd build/Build/Products/Release"
-    echo "   zip -r MacMemoryApp-v1.0.zip MacMemoryApp.app"
+    echo "💡 To create a versioned release ZIP:"
+    echo "   ./distribute.sh"
     echo ""
 else
     echo ""
